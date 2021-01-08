@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  color: #808080;
+  align-items: center;
+  line-height: 21.6px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  margin-top: 40px;
+}

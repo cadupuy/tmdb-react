@@ -1,0 +1,18 @@
+main::after {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.absolute {
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  width: 100vw;
+  object-fit: cover;
+  height: 100vh;
+}

@@ -1,0 +1,96 @@
+.movieInformation {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 940px;
+}
+
+.movieInformation > div:first-child img {
+  width: 383px;
+  height: 574px;
+}
+
+.movieInformation > div:last-child {
+  background-color: rgba(0, 0, 0, 0.6);
+  flex: 2;
+  padding: 25px;
+}
+
+.movieInformation h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.movieDetails {
+  margin-right: 70px;
+}
+
+.movieInformation .movieDetails > p:first-child {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  font-weight: 300;
+}
+
+.movieInformation .movieDetails > p:last-child {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  line-height: 28.2px;
+  color: #00fc87;
+  font-weight: 300;
+}
+
+.movieDetailsSection {
+  padding-right: 100px;
+}
+
+.detailsContainer {
+  display: flex;
+  margin-top: 15px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.movieResumeContainer {
+  margin: 10px 0;
+}
+
+.movieCategoryContainer {
+  margin: 40px 0 20px 0;
+}
+
+.movieResumeContainer > p:last-child,
+.movieCategoryContainer > p:last-child {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+  font-weight: 300;
+}
+
+.movieResumeContainer > p:last-child {
+  font-family: "Lato", sans-serif;
+}
+
+.movieCategoryContainer > p:last-child {
+  font-family: "Oswald", sans-serif;
+}
+
+.movieResumeContainer > p:first-child {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 31.2px;
+  color: #00fc87;
+  font-weight: 300;
+}
+
+.movieCategoryContainer > p:first-child {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  line-height: 33.6px;
+  color: #00fc87;
+  font-weight: 300;
+}
