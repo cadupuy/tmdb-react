@@ -1,9 +1,15 @@
+/* 
+----------------------------------- 
+SEARCH INPUT
+----------------------------------- 
+*/
+
 .search-bar > input {
   outline: none;
   padding: 7px 15px;
   color: var(--white);
   border: none;
-  width: 500px;
+  width: 540px;
   font-size: 16px;
   background: transparent;
   border-bottom: 1px solid var(--white);

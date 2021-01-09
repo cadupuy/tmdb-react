@@ -16,7 +16,8 @@ library.add(faGithub);
 
 function App() {
   const [searchItem, setSearchItem] = useState("");
-  const [movieId, setMovieId] = useState(157336);
+  // Star Wars ID by default
+  const [movieId, setMovieId] = useState(11);
 
   return (
     <Router>

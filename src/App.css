@@ -20,6 +20,8 @@ a {
   color: inherit;
 }
 
+/* Keyframes for animation on SearchInput + Header + MovieContent (fadein) */
+
 @keyframes fadein {
   from {
     opacity: 0;

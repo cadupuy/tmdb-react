@@ -1,3 +1,9 @@
+/* 
+----------------------------------- 
+MOVIE CONTENT
+----------------------------------- 
+*/
+
 .movieInformation {
   display: flex;
   margin: auto;
@@ -11,10 +17,14 @@
   height: 574px;
 }
 
+.movieInformation .notFound {
+  object-fit: cover;
+}
+
 .movieInformation > div:last-child {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   flex: 2;
-  padding: 25px;
+  padding: 25px 40px 25px 30px;
 }
 
 .movieInformation h2 {
@@ -61,11 +71,11 @@
 }
 
 .movieCategoryContainer {
-  margin: 40px 0 20px 0;
+  margin: 35px 0 20px 0;
 }
 
 .movieResumeContainer .overview,
-.movieCategoryContainer > p:last-child {
+.movieCategoryContainer > .companies {
   font-size: 16px;
   line-height: 24px;
   color: var(--white);
@@ -76,7 +86,7 @@
   font-family: "Lato", sans-serif;
 }
 
-.movieCategoryContainer > p:last-child {
+.movieCategoryContainer > .companies {
   font-family: "Oswald", sans-serif;
 }
 
@@ -86,9 +96,10 @@
   line-height: 31.2px;
   color: var(--green);
   font-weight: 300;
+  margin-bottom: 5px;
 }
 
-.movieCategoryContainer > p:first-child {
+.movieCategoryContainer > .genres {
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   line-height: 33.6px;
