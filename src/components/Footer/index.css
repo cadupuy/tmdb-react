@@ -16,6 +16,7 @@ footer {
   font-family: "Lato", sans-serif;
   margin-top: 40px;
   padding-bottom: 30px;
+  font-weight: 300;
 }
 
 footer svg {
@@ -25,6 +26,7 @@ footer svg {
 footer > p,
 footer > span {
   transition: 0.4s all ease;
+  padding-bottom: 10px;
 }
 
 footer > p:hover,

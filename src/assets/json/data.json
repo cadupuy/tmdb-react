@@ -1,0 +1,34 @@
+[
+  {
+    "popularity": 34.023,
+    "vote_count": 7126,
+    "video": false,
+    "poster_path": "/oErEczcVUmJm0EPdvWsvK4g4Lv3.jpg",
+    "id": 769,
+    "adult": false,
+    "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
+    "original_language": "en",
+    "original_title": "GoodFellas",
+    "genre_ids": [80, 18],
+    "title": "GoodFellas",
+    "vote_average": 8.4,
+    "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+    "release_date": "1990-09-12"
+  },
+  {
+    "popularity": 26.122,
+    "vote_count": 4548,
+    "video": false,
+    "poster_path": "/7sf9CgJz30aXDvrg7DYYUQ2U91T.jpg",
+    "id": 389,
+    "adult": false,
+    "backdrop_path": "/6396QiokQBiTgPgB16nUWxYdM7N.jpg",
+    "original_language": "en",
+    "original_title": "12 Angry Men",
+    "genre_ids": [18],
+    "title": "12 Angry Men",
+    "vote_average": 8.4,
+    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+    "release_date": "1957-04-10"
+  }
+]

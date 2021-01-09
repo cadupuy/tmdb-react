@@ -52,7 +52,7 @@ MOVIE CONTENT
 }
 
 .movieDetailsSection {
-  padding-right: 80px;
+  padding-right: 120px;
 }
 
 .detailsContainer {
@@ -113,6 +113,10 @@ MOVIE CONTENT
   .movieInformation > div:first-child img {
     width: 313px;
     object-fit: cover;
+  }
+
+  .movieDetailsSection {
+    padding-right: 50px;
   }
 }
 
