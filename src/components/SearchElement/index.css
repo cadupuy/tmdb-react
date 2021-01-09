@@ -1,0 +1,14 @@
+.searchElement {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px 20px;
+}
+
+.searchElement:hover {
+  color: var(--darkGrey);
+  background-color: var(--green);
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,28 +1,33 @@
 import React from "react";
 import "./index.css";
 
-const MovieContent = ({ movie }) => {
+const MovieContent = ({ movieInfo }) => {
+  console.log(movieInfo);
   return (
     <section className="movieInformation">
       <div>
-        <img
-          src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
-          alt="MovieCover"
-        />
+        {movieInfo.poster_path && (
+          <img
+            src={`https://image.tmdb.org/t/p/original/${movieInfo.poster_path}`}
+            alt="MovieCover"
+          />
+        )}
       </div>
       <div>
-        <h2>{movie.title}</h2>
+        <h2>{movieInfo.title}</h2>
 
         <div className="movieResumeContainer">
-          <p>{movie.tagline}</p>
-          <p>{movie.overview}</p>
+          {movieInfo.tagline && <p className="tagLine">{movieInfo.tagline}</p>}
+          {movieInfo.overview && (
+            <p className="overview">{movieInfo.overview}</p>
+          )}
         </div>
 
         <div className="movieCategoryContainer">
-          {/* {movie.genres.map((elem) => {
+          {/* {movieInfo.genres.map((elem) => {
             return <span key={elem.id}>{elem.name}</span>;
-          })}
-          <p>test</p>
+          })} */}
+          {/* <p>test</p>
           {movie.production_companies.map((elem) => {
             return <span key={elem.id}>{elem.name}</span>;
           })}
@@ -32,23 +37,32 @@ const MovieContent = ({ movie }) => {
           <div className="detailsContainer">
             <div className="movieDetails">
               <p>Original Release:</p>
-              <p>{movie.release_date}</p>
+              {movieInfo.release_date ? (
+                <p>{movieInfo.release_date}</p>
+              ) : (
+                <p>-</p>
+              )}
             </div>
 
             <div className="movieDetails">
               <p>Running Time:</p>
-              <p>{movie.runtime} mins</p>
+              {movieInfo.runtime ? <p>{movieInfo.runtime} mins</p> : <p>-</p>}
             </div>
           </div>
           <div className="detailsContainer">
             <div className="movieDetails">
               <p>Box Office:</p>
-              <p>${movie.revenue}</p>
+              {movieInfo.revenue ? <p>${movieInfo.revenue}</p> : <p>-</p>}
+              {/* <p>${movie.revenue.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p> */}
             </div>
 
             <div className="movieDetails">
               <p>Vote Average:</p>
-              <p>{movie.vote_average} / 10</p>
+              {movieInfo.vote_average ? (
+                <p>{movieInfo.vote_average} / 10</p>
+              ) : (
+                <p>-</p>
+              )}
             </div>
           </div>
         </div>

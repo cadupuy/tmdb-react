@@ -1,10 +1,17 @@
 import React from "react";
 import "./index.css";
 
+// Icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <footer>
-      <p>Designed & developed by Charles-Antoine Dupuy</p>
+      <p>Developed with React by Charles-Antoine Dupuy</p>
+      <span>
+        <FontAwesomeIcon icon={faGithub} /> View code
+      </span>
     </footer>
   );
 };

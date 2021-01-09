@@ -3,10 +3,26 @@ footer {
   justify-content: center;
   flex-direction: column;
   color: white;
-  color: #808080;
+  color: var(--grey);
   align-items: center;
   line-height: 21.6px;
   font-size: 14px;
   font-family: "Lato", sans-serif;
   margin-top: 40px;
+}
+
+footer svg {
+  margin-right: 2px;
+}
+
+footer > p,
+footer > span {
+  transition: 0.4s all ease;
+}
+
+footer > p:hover,
+footer > span:hover {
+  color: var(--green);
+  text-decoration: underline;
+  cursor: pointer;
 }

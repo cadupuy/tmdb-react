@@ -9,15 +9,25 @@ import Home from "./containers/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
+// Icons
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+library.add(faGithub);
+
 function App() {
   const [searchItem, setSearchItem] = useState("");
+  const [movieId, setMovieId] = useState(157336);
 
   return (
     <Router>
-      <Header searchItem={searchItem} setSearchItem={setSearchItem} />
+      <Header
+        searchItem={searchItem}
+        setSearchItem={setSearchItem}
+        setMovieId={setMovieId}
+      />
       <Switch>
         <Route path="/">
-          <Home />
+          <Home movieId={movieId} />
         </Route>
       </Switch>
       <Footer />

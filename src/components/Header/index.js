@@ -1,22 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./index.css";
 
 // Components
-import Search from "../../components/Search";
+import SearchInput from "../../components/SearchInput";
 
 // Images
 import Logo from "../../assets/img/logo.svg";
 
-const Header = ({ searchItem, setSearchItem }) => {
+const Header = ({ searchItem, setSearchItem, setMovieId }) => {
+  const handleClick = () => {
+    window.location.reload();
+  };
   return (
     <header>
       <div className="container">
-        <Link to="/">
-          <img src={Logo} alt="logo" />
-        </Link>
+        <img onClick={handleClick} src={Logo} alt="logo" />
 
-        <Search searchItem={searchItem} setSearchItem={setSearchItem} />
+        <SearchInput
+          searchItem={searchItem}
+          setSearchItem={setSearchItem}
+          setMovieId={setMovieId}
+        />
       </div>
     </header>
   );
