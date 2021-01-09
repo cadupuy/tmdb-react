@@ -31,6 +31,7 @@ const SearchBar = ({ searchItem, setSearchItem, setMovieId }) => {
   return (
     <div className="search-bar">
       <input
+        aria-label="search-label"
         onChange={handleSearch}
         type="text"
         value={searchItem}
