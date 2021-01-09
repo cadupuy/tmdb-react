@@ -20,7 +20,8 @@ a {
   color: inherit;
 }
 
-/* Keyframes for animation on SearchInput + Header + MovieContent (fadein) */
+/* Keyframes for animation on SearchInput + Header + MovieContent (fadein) 
+https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load */
 
 @keyframes fadein {
   from {
