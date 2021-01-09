@@ -23,13 +23,13 @@ footer svg {
   margin-right: 2px;
 }
 
-footer > p,
+footer > a,
 footer > span {
   transition: 0.4s all ease;
   padding-bottom: 10px;
 }
 
-footer > p:hover,
+footer > a:hover,
 footer > span:hover {
   color: var(--green);
   text-decoration: underline;

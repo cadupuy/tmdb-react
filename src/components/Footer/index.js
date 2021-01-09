@@ -8,9 +8,17 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer>
-      <p>Developed with React by Charles-Antoine Dupuy</p>
+      <a href="https://github.com/cadupuy" target="_blank" rel="noreferrer">
+        Developed for @Fleet by Charles-Antoine Dupuy
+      </a>
       <span>
-        <FontAwesomeIcon icon={faGithub} /> View code
+        <a
+          href="https://github.com/cadupuy/TMDB-React"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} /> View code
+        </a>
       </span>
     </footer>
   );
