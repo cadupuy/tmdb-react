@@ -1,6 +1,6 @@
 # TMDB - React
 
-[![](https://i.ibb.co/wc4yn7Y/screely-1610198645104.png)]()
+[![](https://image.noelshack.com/fichiers/2021/01/6/1610199017-screely-1610198645104-min.jpg)]()
 
 
 ## Installation and usage
