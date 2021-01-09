@@ -22,6 +22,35 @@ SEARCH INPUT
   color: var(--white);
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
-  width: 500px;
+  width: 540px;
   animation: fadein 1s;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1200px) {
+  .search-bar > input,
+  .searchElementsContainer {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-bar > input,
+  .searchElementsContainer {
+    width: 300px;
+  }
+}
+
+@media (max-width: 560px) {
+  .search-bar {
+    width: 100%;
+  }
+  .search-bar > input {
+    width: 100%;
+  }
+
+  .searchElementsContainer {
+    width: 90%;
+  }
 }

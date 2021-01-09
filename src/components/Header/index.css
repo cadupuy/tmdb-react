@@ -22,3 +22,30 @@ header img {
   height: 55px;
   cursor: pointer;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1200px) {
+  header .container {
+    width: 740px;
+  }
+}
+
+@media (max-width: 800px) {
+  header .container {
+    width: 546px;
+  }
+}
+
+@media (max-width: 560px) {
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  header img {
+    margin-bottom: 30px;
+  }
+}

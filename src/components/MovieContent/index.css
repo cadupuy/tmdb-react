@@ -35,10 +35,6 @@ MOVIE CONTENT
   font-weight: bold;
 }
 
-.movieDetails {
-  margin-right: 70px;
-}
-
 .movieInformation .movieDetails > p:first-child {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
@@ -56,7 +52,7 @@ MOVIE CONTENT
 }
 
 .movieDetailsSection {
-  padding-right: 100px;
+  padding-right: 80px;
 }
 
 .detailsContainer {
@@ -105,4 +101,53 @@ MOVIE CONTENT
   line-height: 33.6px;
   color: var(--green);
   font-weight: 300;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1200px) {
+  .movieInformation {
+    width: 740px;
+  }
+
+  .movieInformation > div:first-child img {
+    width: 313px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  .movieInformation,
+  .movieInformation > div:first-child img {
+    width: 546px;
+  }
+
+  .movieInformation {
+    flex-direction: column-reverse;
+  }
+
+  .movieInformation > div:first-child img {
+    height: 819px;
+  }
+}
+
+@media (max-width: 560px) {
+  .movieInformation {
+    width: 90%;
+  }
+
+  .movieInformation > div:first-child img {
+    width: 100%;
+    height: auto;
+  }
+
+  .movieInformation > div:last-child {
+    padding: 15px 20px 15px 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .movieDetailsSection {
+    padding-right: 20px;
+  }
 }
