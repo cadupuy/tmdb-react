@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="https://github.com/cadupuy" target="_blank" rel="noreferrer">
-        Developed for @Fleet by Charles-Antoine Dupuy
+        Developed by Charles-Antoine Dupuy
       </a>
       <span>
         <a

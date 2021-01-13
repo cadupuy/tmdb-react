@@ -11,7 +11,7 @@ it("should renders without crashing", () => {
   );
 
   expect(
-    screen.getByText("Developed for @Fleet by Charles-Antoine Dupuy")
+    screen.getByText("Developed by Charles-Antoine Dupuy")
   ).toBeInTheDocument();
 
   expect(screen.getByText("View code")).toBeInTheDocument();
