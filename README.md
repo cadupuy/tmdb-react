@@ -7,12 +7,14 @@
 
 ## Overview
 
-This project is a movie browsing app in React using TMDB API. it allows you to browse the list of movies in the provided TMDB database.
+This project is a movie browsing app in React using TMDB API. It allows you to browse the list of movies in the provided TMDB database.
 
 ## Packages
 
 - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
 - [Axios](https://github.com/axios/axios)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
 
 ## Installation and usage
 
