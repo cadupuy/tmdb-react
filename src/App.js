@@ -15,17 +15,12 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(faGithub);
 
 function App() {
-  const [searchItem, setSearchItem] = useState("");
-  // Star Wars ID by default
-  const [movieId, setMovieId] = useState(11);
+  const defaultMovie = 11; // Star Wars ID by default
+  const [movieId, setMovieId] = useState(defaultMovie);
 
   return (
     <Router>
-      <Header
-        searchItem={searchItem}
-        setSearchItem={setSearchItem}
-        setMovieId={setMovieId}
-      />
+      <Header setMovieId={setMovieId} />
       <Switch>
         <Route path="/">
           <Home movieId={movieId} />

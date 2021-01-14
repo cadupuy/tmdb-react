@@ -18,7 +18,7 @@ const MovieContent = ({ movieInfo }) => {
         )}
       </div>
       <div>
-        {movieInfo.title && <h2>{movieInfo.title.toUpperCase()}</h2>}
+        <h2>{movieInfo.title?.toUpperCase()}</h2>
 
         <div className="movieResumeContainer">
           {movieInfo.tagline && <p className="tagLine">{movieInfo.tagline}</p>}

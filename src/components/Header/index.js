@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 
 // Components
@@ -7,7 +7,9 @@ import SearchInput from "../../components/SearchInput";
 // Images
 import Logo from "../../assets/img/logo.svg";
 
-const Header = ({ searchItem, setSearchItem, setMovieId }) => {
+const Header = ({ setMovieId }) => {
+  const [searchItem, setSearchItem] = useState("");
+
   const handleClick = () => {
     window.location.reload();
   };
