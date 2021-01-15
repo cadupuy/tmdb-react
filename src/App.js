@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 // Containers
@@ -21,11 +21,9 @@ function App() {
   return (
     <Router>
       <Header setMovieId={setMovieId} />
-      <Switch>
-        <Route path="/">
-          <Home movieId={movieId} />
-        </Route>
-      </Switch>
+      <Route path="/">
+        <Home movieId={movieId} />
+      </Route>
       <Footer />
     </Router>
   );

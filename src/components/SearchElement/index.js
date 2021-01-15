@@ -1,15 +1,15 @@
 import React from "react";
 import "./index.css";
 
-const SearchElement = ({ movies, setMovieId, setSearchItem }) => {
+const SearchElement = ({ movie, setMovieId, setSearchItem }) => {
   const handleClick = () => {
-    setMovieId(movies.id);
+    setMovieId(movie.id);
     setSearchItem("");
   };
 
   return (
     <p className="searchElement" onClick={handleClick}>
-      {movies.title}
+      {movie.title}
     </p>
   );
 };

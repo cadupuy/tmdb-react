@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 
 // Components
@@ -8,8 +8,6 @@ import SearchInput from "../../components/SearchInput";
 import Logo from "../../assets/img/logo.svg";
 
 const Header = ({ setMovieId }) => {
-  const [searchItem, setSearchItem] = useState("");
-
   const handleClick = () => {
     window.location.reload();
   };
@@ -18,11 +16,7 @@ const Header = ({ setMovieId }) => {
       <div className="container">
         <img onClick={handleClick} src={Logo} alt="logo" />
 
-        <SearchInput
-          searchItem={searchItem}
-          setSearchItem={setSearchItem}
-          setMovieId={setMovieId}
-        />
+        <SearchInput setMovieId={setMovieId} />
       </div>
     </header>
   );

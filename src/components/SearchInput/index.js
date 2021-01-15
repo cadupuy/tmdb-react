@@ -5,7 +5,9 @@ import "./index.css";
 // Components
 import SearchElement from "../SearchElement";
 
-const SearchBar = ({ searchItem, setSearchItem, setMovieId }) => {
+const SearchBar = ({ setMovieId }) => {
+  const [searchItem, setSearchItem] = useState("");
+
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -44,7 +46,7 @@ const SearchBar = ({ searchItem, setSearchItem, setMovieId }) => {
             return (
               <SearchElement
                 key={index}
-                movies={elem}
+                movie={elem}
                 setMovieId={setMovieId}
                 setSearchItem={setSearchItem}
               />
