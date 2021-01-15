@@ -15,7 +15,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(faGithub);
 
 function App() {
-  const defaultMovie = 11; // Star Wars ID by default
+  const defaultMovie = 157336; // Interstellar ID by default
   const [movieId, setMovieId] = useState(defaultMovie);
 
   return (
