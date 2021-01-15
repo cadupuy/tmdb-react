@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project is a movie browsing app in React using TMDB API. It allows you to browse the list of movies in the provided TMDB database.
+This project is a movie browsing app in React using TMDB API. It allows you to browse the list of movies in the provided TMDB database. <br>
 Online demo : https://inspiring-colden-fa9d8d.netlify.app/
 
 ## Packages
