@@ -3,11 +3,12 @@
 ![](https://img.shields.io/github/last-commit/cadupuy/tmdb-react.svg?style=for-the-badge)
 ![](https://img.shields.io/github/license/cadupuy/tmdb-react.svg?style=for-the-badge)
 
-[![](https://image.noelshack.com/fichiers/2021/01/6/1610199017-screely-1610198645104-min.jpg)]()
+[![](https://image.noelshack.com/fichiers/2021/02/5/1610720347-screely-1610720281185-min.jpg)](https://inspiring-colden-fa9d8d.netlify.app/)
 
 ## Overview
 
 This project is a movie browsing app in React using TMDB API. It allows you to browse the list of movies in the provided TMDB database.
+Online demo : https://inspiring-colden-fa9d8d.netlify.app/
 
 ## Packages
 
@@ -51,3 +52,6 @@ If you'd like to contribute, please fork the repository and use a feature branch
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
